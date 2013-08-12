@@ -222,7 +222,7 @@ exe "hi! VertSplit"  .s:fmt_none   .s:fg_light2 .s:bg_light2
 exe "hi! Title"          .s:fmt_bold   .s:fg_orange .s:bg_none
 exe "hi! VisualNOS"      .s:fmt_stnd   .s:fg_none   .s:bg_light2 .s:fmt_revb
 exe "hi! WarningMsg"     .s:fmt_bold   .s:fg_red    .s:bg_none
-exe "hi! WildMenu"       .s:fmt_none   .s:fg_dark2  .s:bg_light2 .s:fmt_revb
+exe "hi! WildMenu"       .s:fmt_none   .s:fg_light2  .s:bg_dark0
 exe "hi! Folded"         .s:fmt_undb   .s:fg_dark0  .s:bg_light2  .s:sp_light3
 exe "hi! FoldColumn"     .s:fmt_none   .s:fg_dark0  .s:bg_light2
 exe "hi! SignColumn"     .s:fmt_none   .s:fg_dark0
@@ -253,3 +253,4 @@ exe "hi! javaScript"        .s:fmt_none .s:fg_yellow .s:bg_none
 "}}}
 "
 hi link vimOption Identifier
+hi! link CtrlPMatch Constant
